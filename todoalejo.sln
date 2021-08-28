@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoalejo.Common", "todoalejo.Common\todoalejo.Common.csproj", "{F2975955-1B48-4834-AB10-A6E96EF88CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoalejo.Funtions", "todoalejo.Funtions\todoalejo.Funtions.csproj", "{9E8EC385-F0C7-4DF8-A4FF-28193B992123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoalejo.Test", "todoalejo.Test\todoalejo.Test.csproj", "{99D7E29D-B018-4BD0-B041-1248A59E04CE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2975955-1B48-4834-AB10-A6E96EF88CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2975955-1B48-4834-AB10-A6E96EF88CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2975955-1B48-4834-AB10-A6E96EF88CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2975955-1B48-4834-AB10-A6E96EF88CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8EC385-F0C7-4DF8-A4FF-28193B992123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8EC385-F0C7-4DF8-A4FF-28193B992123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8EC385-F0C7-4DF8-A4FF-28193B992123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8EC385-F0C7-4DF8-A4FF-28193B992123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D7E29D-B018-4BD0-B041-1248A59E04CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D7E29D-B018-4BD0-B041-1248A59E04CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D7E29D-B018-4BD0-B041-1248A59E04CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D7E29D-B018-4BD0-B041-1248A59E04CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
